@@ -267,7 +267,11 @@ HEADERS += \
     Trust2Geometry.hpp \
     SolarPatchGeometry.hpp \
     SphericalHoleGeometry.hpp \
-    SpiralStructureGeometry.hpp
+    SpiralStructureGeometry.hpp \
+    aCHcoremanGrainComposition.hpp \
+    CMamEnstatiteGrainComposition.hpp \
+    CMamForsteriteGrainComposition.hpp \
+    PowerLawExpTailGrainSizeDistribution.hpp
 
 SOURCES += \
     AdaptiveMesh.cpp \
@@ -495,4 +499,8 @@ SOURCES += \
     Trust2Geometry.cpp \
     SolarPatchGeometry.cpp \
     SphericalHoleGeometry.cpp \
-    SpiralStructureGeometry.cpp
+    SpiralStructureGeometry.cpp \
+    aCHcoremanGrainComposition.cpp \
+    CMamEnstatiteGrainComposition.cpp \
+    CMamForsteriteGrainComposition.cpp \
+    PowerLawExpTailGrainSizeDistribution.cpp

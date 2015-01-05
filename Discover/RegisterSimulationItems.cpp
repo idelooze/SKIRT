@@ -8,6 +8,7 @@
 
 // add new items in alphabetical order
 
+#include "aCHcoremanGrainComposition.hpp"
 #include "AdaptiveMeshAmrvacFile.hpp"
 #include "AdaptiveMeshAsciiFile.hpp"
 #include "AdaptiveMeshDustDistribution.hpp"
@@ -24,6 +25,8 @@
 #include "BolLuminosityStellarCompNormalization.hpp"
 #include "BruzualCharlotSED.hpp"
 #include "ClumpyGeometry.hpp"
+#include "CMamEnstatiteGrainComposition.hpp"
+#include "CMamForsteriteGrainComposition.hpp"
 #include "CompDustDistribution.hpp"
 #include "ConfigurableDustMix.hpp"
 #include "CubicSplineSmoothingKernel.hpp"
@@ -103,6 +106,7 @@
 #include "PowAxDustGridStructure.hpp"
 #include "PowCubDustGridStructure.hpp"
 #include "PowSpheDustGridStructure.hpp"
+#include "PowerLawExpTailGrainSizeDistribution.hpp"
 #include "PowerLawGrainSizeDistribution.hpp"
 #include "PseudoSersicGeometry.hpp"
 #include "QuasarSED.hpp"
