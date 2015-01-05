@@ -18,7 +18,7 @@
 class CMamEnstatiteGrainComposition : public GrainComposition
 {
     Q_OBJECT
-    Q_CLASSINFO("Title", "a aCH dust grains composition")
+    Q_CLASSINFO("Title", "Koehler+2014 CMamEnstatite dust grain composition")
 
     //============= Construction - Setup - Destruction =============
 

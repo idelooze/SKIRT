@@ -327,6 +327,9 @@ void RegisterSimulationItems::registerAll()
     add<TrustNeutralPAHGrainComposition>();
     add<DustEmGrainComposition>();
     add<FileGrainComposition>();
+    add<aCHcoremanGrainComposition>();
+    add<CMamEnstatiteGrainComposition>();
+    add<CMamForsteriteGrainComposition>();
 
     add<GrainSizeDistribution>(false);
     add<PowerLawGrainSizeDistribution>();
@@ -337,6 +340,7 @@ void RegisterSimulationItems::registerAll()
     add<ZubkoGraphiteGrainSizeDistribution>();
     add<ZubkoSilicateGrainSizeDistribution>();
     add<ZubkoPAHGrainSizeDistribution>();
+    add<PowerLawExpTailGrainSizeDistribution>();
 
     add<DustMixPopulation>();
 
